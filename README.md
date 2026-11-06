@@ -95,3 +95,7 @@ Supporting docs: `docs/PARTNER_PROGRAM_V1.md` and `docs/PARTNER_OUTREACH_AND_ONB
 - Add/edit future products with the in-browser product editor. Local changes do not update GitHub, Make or Gumroad; export a JSON backup to retain them.
 - Data is seeded from `data/product_details.json`, linked to 17 verified development scenario IDs, with planned deliverables clearly labeled as such.
 - Public Pages previews MUST only publish the sanitized `public-preview` branch, not the full internal CRM.
+
+## Fifteen draft launch packages (7 November 2026)
+
+Open `systems/launch-packs.html` to view the 15 first-batch dossiers, designs, scopes, proposed prices, affiliate concepts and release blockers. Local package ZIP files were prepared separately for owner delivery; no paid files are hosted in this HQ. All products remain **Packaging / untested**; no Make scenario was executed or activated, and no Gumroad listing was created or published.
