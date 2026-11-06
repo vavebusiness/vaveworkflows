@@ -1,0 +1,9 @@
+# Never commit private backups, API keys or contact exports.
+*.backup.json
+*backup*.csv
+.env
+.env.*
+private/
+secrets/
+.DS_Store
+__pycache__/
