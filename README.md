@@ -88,3 +88,10 @@ This HQ is **only for Vave Workflow Store**. It deliberately does not copy the p
 Open `systems/partner-pilot.html` from the navigation. This adds a full v1 partner recruitment and activation plan, interactive model and release checklist. The calculator and checklist save only browser-local assumptions and do **not** update live CRM, Gumroad or Make.
 
 Supporting docs: `docs/PARTNER_PROGRAM_V1.md` and `docs/PARTNER_OUTREACH_AND_ONBOARDING.md`.
+
+## Store-style Product Catalog (November 2026)
+- Open `systems/catalog.html` for a Gumroad-like product grid.
+- Each card opens `systems/product.html?id=<SKU>` containing detailed inputs, outputs, audiences, setup outline, proposed pricing, scope and release evidence.
+- Add/edit future products with the in-browser product editor. Local changes do not update GitHub, Make or Gumroad; export a JSON backup to retain them.
+- Data is seeded from `data/product_details.json`, linked to 17 verified development scenario IDs, with planned deliverables clearly labeled as such.
+- Public Pages previews MUST only publish the sanitized `public-preview` branch, not the full internal CRM.
