@@ -1,7 +1,9 @@
-# Vave Workflow Store — Public-safe HQ preview
+# Vave Workflow Store — public-safe multi-page HQ
+This branch holds the static HQ shell, fifteen product concepts and a 60% planned affiliate commission. This is NOT the private company database. No email recipients, affiliate contacts, customer records, personal data exports, passwords, API keys, Make credentials or paid digital product files are shipped here.
 
-Static sanitized product catalog with 15 planned workflows, proposed prices, no contacts or confidential data. Source branch `public-preview` was built without reusing the internal site's datasets.
+The HQ uses browser-localStorage; no real accounts, sales or data are synced. Real scenario IDs were intentionally removed from the seed for public use. The 60% commission still needs to be configured in Gumroad before it is active.
 
-**To publish:** repo Settings → Pages → Build and deployment → Deploy from a branch → `public-preview` / `(root)` → Save. GitHub Pages on private repositories requires an eligible paid plan; Pages sites are publicly accessible regardless of repo visibility.
+## GitHub Pages
+A GitHub Actions deploy workflow is included. To enable GitHub Pages, open repository Settings → Pages and select "GitHub Actions" as the source. GitHub Free requires a PUBLIC repository; a private repository requires GitHub Pro/Team/Enterprise. **Do not make this repository public while it contains private company records on other branches or in git history.** For a free public host, create a separate repository containing ONLY this sanitized tree.
 
-No Make workflows are activated, imported, or run; no Gumroad listings are published. The internal HQ stays on private `main`.
+GitHub workflow run success and a reachable URL are required before calling this deployed.
