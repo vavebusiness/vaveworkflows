@@ -30,7 +30,7 @@ Proof: real Make execution (to be recorded only after authorized QA), then show 
 CTA: “Review the blueprint and setup guide.” Do not promise video editing or autoposting.
 
 ## Partnership economics
-Potential: 35% affiliate commission is an internal proposal, not agreed. Paid placement is **optional**, has no agreed amount and should follow evidence of product readiness and expected conversion.
+Owner-set Vave Workflow Store affiliate rate: **60% of qualifying attributed product sales**; not yet configured in Gumroad or agreed with this prospective partner. Paid placement is **optional**, has no agreed amount and should follow evidence of product readiness and expected conversion.
 
 ## Outreach status
 Review invitation NOT SENT. A polite acknowledgment can be prepared, but no claims of successful QA or promised shipping date.

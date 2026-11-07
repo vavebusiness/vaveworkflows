@@ -25,7 +25,7 @@ Hi [creator name],
 
 Your [specific video/post] on [topic] is closely related to a practical workflow we've now finished validating: [product name]. It helps users [one accurately verified outcome] using [real prerequisites].
 
-We're inviting a small group of creators to independently try it and, if they genuinely find it useful, share it with their audience. The proposed [approved]% affiliate commission is tracked through a direct Gumroad link; we provide a real demo, installation guide, and accurate feature FAQ.
+We're inviting a small group of creators to independently try it and, if they genuinely find it useful, share it with their audience. The proposed 60% affiliate commission is tracked through a direct Gumroad link; we provide a real demo, installation guide, and accurate feature FAQ.
 
 If it's relevant, I can send the details and a review copy. There's no requirement to give a positive review.
 

@@ -35,7 +35,7 @@ tasks=[
  task('TASK-07','Verify Gumroad Pages custom home','Store','Blocked','P1','Account feature availability and sanitizer preview are unconfirmed.'),
  task('TASK-08','Approve brand + product cover system','Store','In progress','P1','Midnight blue storefront direction prepared; verify actual seller assets.'),
  task('TASK-09','Qualify first 10 affiliate candidates','Affiliates','To do','P0','Reconfirm audience, current activity, contact and conflict.'),
- task('TASK-10','Prepare affiliate commission economics','Affiliates','In progress','P1','25% provisional, not an agreed rate.'),
+ task('TASK-10','Prepare affiliate commission economics','Affiliates','In progress','P1','60% owner-set affiliate rate; not yet configured or active on Gumroad.'),
  task('TASK-11','Activate Vave Dispatch opt-in','Email','Blocked','P1','Requires seller access, platform eligibility and policy review.'),
  task('TASK-12','Finalize seven email drafts','Email','Done','P2','Prepared, unsent; live links must be verified.'),
  task('TASK-13','Build first qualified client-lead list','Clients','To do','P0','Separate store-related implementation buyers from other company CRM.'),

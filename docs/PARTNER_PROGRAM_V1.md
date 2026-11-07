@@ -25,14 +25,14 @@ Do not combine research candidates, contacted prospects, interested respondents,
 - No obligation to misrepresent hands-on experience, no promises about sales numbers, no fake case studies.
 - Clear support, refund and technical ownership boundaries.
 
-## Offer structure — proposal, not approved
+## Offer structure — owner-set 60% rate, Gumroad configuration pending
 
 | Model | Commission / benefit | When to use | Caveats |
 |---|---:|---|---|
-| Standard creator | 25% of qualifying product price | Default direct affiliate | Seller verifies actual fees, payout eligibility, and current settings |
-| Founding creator | 30% for 60 days after agreed launch | First 3–5 qualified partners | Limited duration and exact covered products documented; don't promise until account supports it |
-| Proven creator | Up to 35% after 10+ nonrefunded attributed sales in a month | Only after profitable pilot | Upgrade prospectively after explicit approval; don't silently change terms |
-| Agency sales referral | Normally same 25% direct-affiliate arrangement | Resells/introduces a pre-made product | Use Gumroad links for product-sale attribution |
+| Standard creator | 60% of qualifying product price | Default direct affiliate | Owner-set rate; seller must confirm actual Gumroad settings, payout eligibility, and fees |
+| Founding creator | 60% of qualifying product price | First approved partners | Same standard 60% rate; no temporary premium tier |
+| Proven creator | 60% of qualifying product price | Approved ongoing affiliates | Same rate unless a separately documented agreement is approved |
+| Agency sales referral | 60% for eligible tracked product sales | Agency referring a pre-made product | Use official Gumroad links for product-sale attribution; custom service referrals are separate |
 | Custom implementation referral | Case-by-case agreement (e.g., 10% of collected first-project service fees) | Agency/consultant introduces a client | Separate written agreement, clear exclusions, refund triggers, legal/contract review, no double commission |
 | White-label implementation | Individually quoted project scope or revenue share | Technical co-delivery | Never imply a Gumroad affiliate link handles service-contract payments |
 
@@ -42,7 +42,7 @@ Do not combine research candidates, contacted prospects, interested respondents,
 
 Current Gumroad help lists direct-link fees as 10% + $0.50 plus card processing of 2.9% + $0.30, subject to payment route and other fees. Gumroad states affiliate-related fees are split proportionally between seller and affiliate. For conservative planning, subtract **all estimated direct-sale transaction fees from the seller's share** rather than depending on the fee split.
 
-For illustrative $29 product / 25% affiliate commission, estimated gross sale $29, affiliate share $7.25, estimated combined platform/processing fees $4.54, **conservative seller contribution $17.21** before refunds, support, business taxes, or any other costs. Actual payouts may differ. Do not use this estimate as a promise of partner earnings.
+For illustrative $29 product / 60% affiliate commission, estimated gross sale $29, affiliate share $17.40, estimated combined platform/processing fees $4.54, **conservative seller contribution $7.06** before refunds, support, business taxes, or any other costs. Actual payouts may differ. Do not use this estimate as a promise of partner earnings.
 
 A $5 discount reduces sale amount, affiliate payout, and contribution. Test discount stacking before distributing codes. Avoid paying high affiliate commission plus a deep coupon without checking margins.
 
