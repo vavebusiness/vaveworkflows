@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-07",
   "products": [
     {
       "id": "VAVE-AIC-01",
@@ -223,17 +223,17 @@
       "scenarioId": 10004712,
       "category": "Business",
       "price": 49,
-      "pitch": "Repurposing drafts and platform-tailored copy from a transcript.",
-      "limits": "Does not schedule or publish posts.",
-      "stage": "Development",
+      "pitch": "One owned transcript → five social post drafts, three short scripts, newsletter draft and seven-day review queue.",
+      "limits": "Draft text and review queue only; does not ingest video directly, cut media, schedule or publish content.",
+      "stage": "Packaging",
       "blueprint": false,
       "importTest": false,
       "runtimeTest": false,
       "listingApproved": false,
       "storeUrl": "",
       "owner": "Vave",
-      "nextAction": "Review config → export genuine blueprint → authorized QA",
-      "notes": "Proposed price; not a live Gumroad listing."
+      "nextAction": "Priority partner candidate: obtain official Make export; clean import; authorized QA and real demo; then invite review.",
+      "notes": "2026-11-07: inactive Make scenario prompt and input fields revised for content-first pilot. Offline candidate ZIP aligned. Still untested; no Gumroad draft or published product."
     },
     {
       "id": "VAVE-BIZ-02",
@@ -619,7 +619,7 @@
       "niche": "Make AI agents and content workflows",
       "product": "Vave AI Trend Pattern Analyst",
       "fit": 5,
-      "score": 4.0,
+      "score": 4,
       "tier": "A",
       "stage": "Researched",
       "channel": "Public business email",

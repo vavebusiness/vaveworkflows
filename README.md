@@ -99,3 +99,11 @@ Supporting docs: `docs/PARTNER_PROGRAM_V1.md` and `docs/PARTNER_OUTREACH_AND_ONB
 ## Fifteen draft launch packages (7 November 2026)
 
 Open `systems/launch-packs.html` to view the 15 first-batch dossiers, designs, scopes, proposed prices, affiliate concepts and release blockers. Local package ZIP files were prepared separately for owner delivery; no paid files are hosted in this HQ. All products remain **Packaging / untested**; no Make scenario was executed or activated, and no Gumroad listing was created or published.
+
+
+## Latest QA and deployment work — 7 November 2026
+- Public-safe GitHub Pages-ready preview branch: `public-preview`. This branch has only an isolated sanitized product catalog; never point GitHub Pages at private `main`.
+- Publishing the branch requires GitHub Settings → Pages configuration and an eligible plan for a private repo. Branch creation is not proof of a live website.
+- Private HQ audit: `docs/WORKFLOW_STATIC_AUDIT_2026-11-07.md`.
+- First partner pilot: `docs/CONTENT_REPURPOSER_PARTNER_READINESS_2026-11-07.md`.
+- A separate downloadable ZIP with corrected (but still unverified) blueprint candidates is prepared outside the repository; it is not uploaded to publicly accessible pages.
