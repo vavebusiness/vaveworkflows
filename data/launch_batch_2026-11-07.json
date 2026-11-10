@@ -15,7 +15,7 @@
       "pitch": "Original hooks, short scripts and a review plan from one topic.",
       "limits": "No publishing, trend feed or performance guarantee.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-AIC-01.svg"
     },
     {
@@ -27,7 +27,7 @@
       "pitch": "UGC-style ad concepts, scripts and shot directions.",
       "limits": "Does not generate or publish video.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-AIC-02.svg"
     },
     {
@@ -39,7 +39,7 @@
       "pitch": "Lead magnet text, worksheet, landing-page and email drafts.",
       "limits": "Does not produce a designed PDF or host a signup page.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-AIC-03.svg"
     },
     {
@@ -51,7 +51,7 @@
       "pitch": "Publishing kit from a supplied original video transcript.",
       "limits": "Does not upload videos or generate imagery.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-AIC-04.svg"
     },
     {
@@ -63,7 +63,7 @@
       "pitch": "Product plan, sample worksheet and sales-copy draft.",
       "limits": "Does not build software or publish a product.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-AIC-05.svg"
     },
     {
@@ -75,7 +75,7 @@
       "pitch": "Localized scripts, captions and voiceover-ready text.",
       "limits": "Does not synthesize audio or clone voices.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-AIC-06.svg"
     },
     {
@@ -87,7 +87,7 @@
       "pitch": "Analyzes dated user-provided content examples into new ideas.",
       "limits": "Does not fetch or monitor live trends.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-AIC-07.svg"
     },
     {
@@ -99,7 +99,7 @@
       "pitch": "Creative briefs and original concepts from submitted ad observations.",
       "limits": "Does not access ad platforms or verify performance.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-AIC-08.svg"
     },
     {
@@ -111,7 +111,7 @@
       "pitch": "Timestamp-based editorial clip suggestions from transcripts.",
       "limits": "Does not cut, transcribe or render video.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-AIC-09.svg"
     },
     {
@@ -123,7 +123,7 @@
       "pitch": "Scripts, storyboards, B-roll suggestions and production plans.",
       "limits": "Does not render videos, images or voiceovers.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-AIC-10.svg"
     },
     {
@@ -135,7 +135,7 @@
       "pitch": "Manual configuration plan for keyword-triggered creator lead magnets.",
       "limits": "Does not send DMs or connect to Instagram.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-AIC-11.svg"
     },
     {
@@ -147,7 +147,7 @@
       "pitch": "Support reply drafts based on an approved knowledge base.",
       "limits": "Does not send email or access a CRM.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-AIC-12.svg"
     },
     {
@@ -159,7 +159,7 @@
       "pitch": "Repurposing drafts and platform-tailored copy from a transcript.",
       "limits": "Does not schedule or publish posts.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-BIZ-01.svg"
     },
     {
@@ -171,7 +171,7 @@
       "pitch": "Content plan based on a factual brand brief.",
       "limits": "Does not use live analytics or post content.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-BIZ-02.svg"
     },
     {
@@ -183,7 +183,7 @@
       "pitch": "Carousel and reel scripts, production direction and checklists.",
       "limits": "Does not render media.",
       "stage": "Packaging / Untested",
-      "affCommission": 35,
+      "affCommission": 60,
       "cover": "../assets/product-covers/VAVE-BIZ-03.svg"
     }
   ]
