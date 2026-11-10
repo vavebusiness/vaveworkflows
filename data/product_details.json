@@ -172,14 +172,14 @@
     "inputs": "Original transcript or article text (required); audience, brand voice, target platforms and approved CTA",
     "outputs": "Five social post drafts, three short-video scripts, one newsletter, source summary, seven-day editorial review queue and QA checklist",
     "requirements": "Make account; user-owned source text/transcript; own Gemini AI account and quota; manual review and publishing software",
-    "contents": "Draft ZIP v2 includes schema-aligned but unverified blueprint candidate, setup notes, example input, proposed Gumroad sales copy, affiliate kit, QA audit and design. Genuine Make editor export, clean import, tests and demo still missing.",
-    "setup": "After official export is ready: import to a new inactive scenario → connect buyer-owned Gemini account → supply transcript, audience, voice, platforms and CTA → manually run approved QA tests → review output before optional manual publishing",
+    "contents": "Prelaunch seller kit prepared (Gumroad copy, sample inputs, setup guide, QA log and release checklist). AUTHENTIC MAKE BLUEPRINT NOT YET EXPORTED. Buyer ZIP, clean-account import and Gumroad draft/checkout not verified. Do not sell until release gates pass.",
+    "setup": "1. Export genuine Make blueprint from scenario 10004712; 2. independently import, reconnect buyer-owned Gemini account; 3. verify five declared inputs, output mapping and manual Run once; 4. test optional parent Call a scenario using nested Scenario Inputs data mapping; 5. approve example output, license, support and delivery, then configure Gumroad.",
     "examples": "Turn a recorded workshop transcript into five post drafts, three short scripts and a review calendar.",
     "tags": "Repurposing,Agency,Content",
     "positioning": "Content repurposing drafting system. It prepares original channel-specific copy; it is not a video auto-clipper or a social auto-poster.",
-    "version": "0.3 — inactive content pilot, untested",
-    "productDocUrl": "",
-    "coverUrl": ""
+    "version": "0.9 — seller prelaunch; normal, long, insufficient-source, untrusted source and caller regression checked on 2026-11-10; inactive; NOT buyer-import tested",
+    "productDocUrl": "https://github.com/vavebusiness/vaveworkflows/blob/main/docs/CONTENT_REPURPOSER_RECORDED_SAMPLE_OUTPUT_2026-11-10.md",
+    "coverUrl": "https://github.com/vavebusiness/vaveworkflows/blob/main/assets/product-covers/VAVE-BIZ-01.svg"
   },
   "VAVE-BIZ-02": {
     "audience": "Social managers, local businesses, marketing teams",
