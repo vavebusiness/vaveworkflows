@@ -2,6 +2,10 @@
 
 This is a **14-page internal operations headquarters (13 original pages + the Partner Launch Pilot)**, built as a self-contained static website. It is not the Gumroad store itself.
 
+## Rule #1 — Authorized project email (mandatory)
+
+**Only `vaveworkflows@gmail.com` is authorized for Vave Workflow Store.** This rule applies to all partner outreach, affiliates, customers, sales, support, drafts, replies, follow-ups, and automated email workflows. Never send from or save Workflow Store outreach drafts in accounts used for Vave Automations or any other project. Before any email action, verify the connected sender account matches `vaveworkflows@gmail.com` exactly. If that account is unavailable or cannot be verified, stop the email action and report the blocker; never fall back to another account. Keep all other projects' correspondence and data separate. Previously created drafts in unrelated accounts must not be sent for Vave Workflow Store.
+
 ## Open it
 
 1. Unzip `Vave_Workflow_Store_HQ_Midnight_v2.zip` into a folder.
