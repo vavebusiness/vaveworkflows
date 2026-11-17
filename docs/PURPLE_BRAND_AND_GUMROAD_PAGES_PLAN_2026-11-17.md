@@ -2,9 +2,9 @@
 Date: 2026-11-17 | Updated: subdued visual refinement | Status: Public storefront preview refreshed; Gumroad native page not yet deployed.
 
 ## Brand identity
-- Main background: **#0D0F15** — neutral charcoal-black
-- Surface/panels: **#151821 / #1A1E29** — consistent dark-slate layers
-- Primary action: **#BBAAEE** — restrained soft-violet, no pink gradient
+- Main background: **#0A0B10** — deep graphite, nearly black
+- Surface/panels: **#14141D / #1B1B25** — subtle charcoal layers (no blue blocks)
+- Primary action: **#A99CDB** — subdued violet, no hot pink gradient
 - Secondary accent: **#C3B5EF** — reserved for key headings, links and small details
 - Main text: **#F4F4F8**
 - Muted text: **#A4A7B6**
@@ -24,7 +24,7 @@ Gumroad's current "Build a website on Gumroad" documentation describes custom HT
 ### Migration sequence
 1. In the authenticated seller account, open **Pages → Home** and obtain the provided agent/developer prompt; use it for the custom HTML profile workflow, including a Gumroad preview before pushing.
 2. Port the Vave violet visual design, accessible responsive layout and content. Use Gumroad's `gumroad-data` and `gumroad-prices` product data on the custom **profile** page rather than hardcoded checkout URLs or prices when possible; those datasets do not appear in standalone pages.
-3. In **Settings → Profile → Design**, set background **#0D0F15**, highlight **#BBAAEE**, font **Inter**. These settings apply to Gumroad product pages, checkout, posts and eligible Gumroad emails; a custom profile HTML page retains its own CSS.
+3. In **Settings → Profile → Design**, set background **#0A0B10**, highlight **#A99CDB**, font **Inter**. These settings apply to Gumroad product pages, checkout, posts and eligible Gumroad emails; a custom profile HTML page retains its own CSS.
 4. Publish the separate Affiliate Program page via Gumroad Pages once affiliate enrollment is actually enabled. Until then use a truthful `mailto:vaveworkflows@gmail.com` application link.
 5. Verify the real **Vave Content Repurposer** price (**$19.99**, confirmed during seller handoff, not earlier HQ's old $49 concept price), published product URL, actual customer ZIP and checkout requirements before connecting a buy button.
 6. Enable native Gumroad audience/subscription controls and Gumroad's available email workflows once account and workflow eligibility is verified. Never import creator outreach addresses as subscribers without consent.
@@ -40,3 +40,6 @@ Keep the current GitHub Pages website as the branded storefront, using Gumroad's
 - Native Gumroad custom Pages setup and seller theme changes require authenticated account access; do not claim those actions are complete until checked.
 - Source: https://gumroad.com/help/article/124-your-gumroad-profile-page
 - Source: https://gumroad.com/help/article/44-build-gumroad-into-your-website
+
+## 2026-11-17 visual QA follow-up
+User screenshot exposed a hard-coded blue background on `<section id="how">` (`#09172a`) and old blue borders/affiliate amount colors. The storefront markup now removes those inline colors, uses `#0D0D15` for the How it works section with subtle violet glow and `#292631` borders, and retains `#0A0B10` for the main surfaces. Keep the entire page within this color family. Avoid inline color overrides that bypass theme CSS. Future Gumroad HTML should use this updated design, not the old navy/blue or pink-heavy themes.
