@@ -43,3 +43,10 @@ Keep the current GitHub Pages website as the branded storefront, using Gumroad's
 
 ## 2026-11-17 visual QA follow-up
 User screenshot exposed a hard-coded blue background on `<section id="how">` (`#09172a`) and old blue borders/affiliate amount colors. The storefront markup now removes those inline colors, uses `#0D0D15` for the How it works section with subtle violet glow and `#292631` borders, and retains `#0A0B10` for the main surfaces. Keep the entire page within this color family. Avoid inline color overrides that bypass theme CSS. Future Gumroad HTML should use this updated design, not the old navy/blue or pink-heavy themes.
+
+## 2026-11-17 V4 customer-facing refinement
+- Storefront brand style: deeper graphite with richer, localized amethyst highlights, **not** all-over pink. Primary background **#090A10**, panels **#15151D / #1B1A24**, primary CTA gradient **#A788F1 → #8059C9**, supporting warm champagne **#E6C8A5** for restrained small accents.
+- Keep the hard-coded blue How-it-works section permanently removed. Use graphite and a very subtle violet glow, with consistent neutral card surfaces.
+- The Contact navigation must go to **storefront/contact.html**, not a silent mailto action. The contact page visibly shows **vaveworkflows@gmail.com**, has an email-copy button and offers Gmail compose plus default email-app links.
+- Other contact paths should route through the same page: `?topic=affiliate`, `?topic=product`, and `?topic=launch`. No fake contact form submission.
+- Status: updated on GitHub, product purchase and Gumroad affiliate functionality still in prelaunch.
