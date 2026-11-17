@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0d0f15">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0a0b10">
 <meta name="description" content="Vave Workflow Store — practical Make automation blueprints for creators and small businesses.">
 <title>Vave Workflow Store — Premium Storefront Preview</title>
 <style>
@@ -22,41 +22,180 @@ footer{border-top:1px solid #2c2c38;padding:38px 0 48px;color:#9b9ba9}.footer-gr
 @media(max-width:620px){.wrap{width:min(100% - 30px,1190px)}header .wrap{min-height:69px}header nav{display:none}.logo{font-size:11px}.hero{padding:65px 0}.hero h1{font-size:47px}.cover{min-height:300px}.cover-inner{padding:24px}.cover-title{font-size:41px}.strip .wrap{gap:13px;justify-content:space-around}.product-grid,.step-grid,.affiliate-list,.faq{grid-template-columns:1fr}.sec-head{flex-direction:column;align-items:stretch}section{padding:64px 0}.affiliate-hero{padding:25px}.affiliate-hero h2{font-size:31px}.footer-grid{flex-direction:column}.checks{gap:11px}.dialog{padding:25px}.newsletter{padding:25px}}
 
 
-/* VAVE DESIGN SYSTEM V2 — premium neutral / restrained violet, 2026-11-17 */
-:root{--bg:#0d0f15;--panel:#151821;--panel2:#1a1e29;--stroke:#2a2e3b;--text:#f4f4f8;--muted:#a4a7b6;--blue:#b5a4ec;--aqua:#b5a4ec;--white:#f8f8fb;--shadow:0 28px 70px #02030788}
-html{scroll-behavior:smooth}body{background:#0d0f15;color:#f4f4f8;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-body:before{background:radial-gradient(ellipse at 83% -10%,#51427820,transparent 53%),radial-gradient(ellipse at 2% 13%,#4d416b0e,transparent 42%)}
-header{background:#0d0f15ed;border-bottom:1px solid #ffffff11;box-shadow:none}nav{color:#a2a5b4}nav a.active,nav a:hover{color:#e1d9ff}
-.logo span em{color:#c0aff5}.mark{background:linear-gradient(150deg,#7463b8,#3d355f);border:1px solid #bbaaff55;color:#f5f1ff;box-shadow:0 0 22px #7e69c626}
-.head-link{border:1px solid #373a49;background:#161921;color:#d9dce6}.head-link:hover{background:#20232e}
-.eyebrow,.small-label{color:#b2a0e8}.dot{background:#b3a2ed;box-shadow:0 0 10px #aa95e066}
-.hero h1{letter-spacing:-.055em}.hero h1 span{background:none;color:#c3b5ef;-webkit-text-fill-color:#c3b5ef}.lead{color:#abb0bd}
-.primary{background:#bbaaee;color:#151320;box-shadow:0 8px 28px #7966b327}.primary:hover{background:#cabcfa;box-shadow:0 10px 29px #8d7abd30}
-.secondary{background:#161922;border:1px solid #363b49;color:#e5e5ec}.secondary:hover{background:#222631}
-.tiny{color:#999dab}.checks{color:#b0b4c2}.checks span:before{color:#b7a5f0}
-.cover{border:1px solid #51496680;background:radial-gradient(ellipse at 78% 42%,#5a498043,transparent 42%),linear-gradient(148deg,#292339 2%,#171823 56%,#12141d 100%);box-shadow:0 26px 66px #03040994}
-.cover:before{border-color:#c6b3ff1e;box-shadow:0 0 0 58px #c1b1ff07,0 0 0 111px #c1b1ff05,0 0 0 170px #c1b1ff03}
-.cover:after{background:radial-gradient(circle at 73% 49%,#8c76cc1a,transparent 42%)}
-.cover-top{color:#d8d6e6}.chip{color:#ddd6f0;border-color:#7a6a9b44;background:#2a25383b}.cover-desc{color:#c6b6e7}
-.cover-orb{border-color:#9d8ab845;background:linear-gradient(150deg,#a89aca1f,#5b50750a);box-shadow:0 0 0 28px #bcacf807}
-.cover-orb:after{background:#c3b2f3}
-.strip{background:#11141b;border-color:#282c37}.strip .wrap{color:#a1a6b2}.strip strong{color:#e8e8ef}
-section{background:transparent}.sec-head p,.section-text,.note{color:#a5a9b8}
-.product{background:#151821;border:1px solid #2c303e;box-shadow:none}.product:hover{background:#191d27;border-color:#605777;transform:translateY(-3px)}
-.mini-cover{background:linear-gradient(145deg,#28233b 0%,#1b1c2a 65%,#181c25 100%);border-color:#514967}.mini-cover:after{border-color:#9e8cc53e;box-shadow:0 0 0 27px #a59bd409}.mini-cover span{color:#b5aacd}
-.product-content .tag{color:#ad9adf}.product-content p{color:#adb0bf}.status{background:#282539;color:#c6b7ed}.muted-status{background:#22252e;color:#a2a6b4}
-.product button{background:#1d202a;border:1px solid #3b4050;color:#dedfea}.product button:hover{background:#2a2c39;border-color:#666077}
-.step{background:#151821;border:1px solid #2b2f3c}.step-num,.number{color:#b9a9ee}.step p{color:#a6abbb}
-.affiliate-hero{background:#171a24!important;border:1px solid #303442!important;box-shadow:none}.affiliate-hero p{color:#aeb2c1}
-.rate{background:#1d202c;border:1px solid #333644}.rate .big{background:none!important;color:#cabcf3!important;-webkit-text-fill-color:#cabcf3!important}
-.affiliate-list article{background:#151821;border:1px solid #2c303e}.affiliate-list p{color:#adb1bf}
-.newsletter{background:#171a24!important;border:1px solid #303442!important}.newsletter p{color:#acb0bf}.nl-box{background:#1d202a;border:1px solid #353a47}.nl-box small{color:#a4a8b6}
-.faq details,details{background:#151821;border:1px solid #2c303e}details p{color:#aeb1c0}
-footer{border-color:#272b37;color:#979dac}.footer-grid p{color:#a2a7b3}.legal{color:#8f96a6}
-.dialog{background:#1b1e28;border:1px solid #434251;box-shadow:0 28px 90px #000a}.close{background:#252834;border:1px solid #3b4050;color:#e6e5f2}.dialog p,.dialog li{color:#abb1bd}
-.filter{background:#191c25;border:1px solid #363947;color:#b8baca}.filter.active{background:#bbaaee;color:#171320;border-color:#bbaaee}
-::selection{background:#6c598f;color:#fff}:focus-visible{outline:2px solid #b9a7f3;outline-offset:3px}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* VAVE BRAND V3 — deep graphite + restrained violet. No navy section overrides. */
+:root {
+  --bg:#0a0b10;
+  --panel:#14141d;
+  --panel2:#1b1b25;
+  --stroke:#302d3c;
+  --text:#f5f4f8;
+  --muted:#aaa9b8;
+  --blue:#aa9cdb;
+  --aqua:#aa9cdb;
+  --white:#fff;
+  --shadow:0 26px 75px #030207ab;
+}
+html{color-scheme:dark;scroll-behavior:smooth}
+body{
+  background:#0a0b10;
+  color:var(--text);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+body:before{
+  background:
+    radial-gradient(ellipse at 81% -15%,#55436a17,transparent 52%),
+    radial-gradient(ellipse at -10% 5%,#3327440c,transparent 40%);
+}
+header{
+  background:#0a0b10ef;
+  border-color:#292731;
+  box-shadow:none;
+}
+nav{color:#a6a6b2}
+nav a:hover,nav a.active{color:#d1c5f2}
+.logo span em{color:#c2b4ec}
+.mark{
+  background:linear-gradient(145deg,#66548f,#332b4d);
+  border:1px solid #a99bd36e;
+  box-shadow:0 0 20px #7967aa19;
+  color:#f5f1ff;
+}
+.head-link{background:#12131b;border:1px solid #35313f;color:#e3e0eb}
+.head-link:hover{background:#1b1a26}
+.eyebrow,.small-label{color:#aca0d5}
+.dot{background:#9e8cca;box-shadow:0 0 12px #a796ce4a}
+.hero h1{letter-spacing:-.055em}
+.hero h1 span{
+  background:none;
+  color:#c0b3e8;
+  -webkit-text-fill-color:#c0b3e8;
+}
+.lead,.sec-head p,.section-text,.note{color:#acabb9}
+.primary{
+  background:#a99cdb;
+  color:#15121d;
+  box-shadow:0 9px 26px #6c5b9826;
+}
+.primary:hover{background:#c0b4ec;box-shadow:0 12px 33px #6c5b982e}
+.secondary{
+  background:#15151e;
+  border:1px solid #393540;
+  color:#eeedf3;
+}
+.secondary:hover{background:#201e29}
+.tiny{color:#9897a8}
+.checks{color:#b0afbc}
+.checks span:before{color:#ac9edb}
+.cover{
+  background:
+    radial-gradient(ellipse at 77% 45%,#65508035,transparent 50%),
+    linear-gradient(145deg,#262036 0%,#18151f 49%,#101018 100%);
+  border:1px solid #5a4c7470;
+  box-shadow:0 33px 80px #020206a6;
+}
+.cover:before{
+  border-color:#b5a5dc1a;
+  box-shadow:0 0 0 58px #b6a8da09,0 0 0 111px #b6a8da07,0 0 0 170px #b6a8da05;
+}
+.cover:after{background:radial-gradient(circle at 73% 49%,#78649b1b,transparent 46%)}
+.cover-top{color:#dcd9e7}
+.cover-desc{color:#bfb1db}
+.chip{border-color:#7b709b49;color:#d8d2e5;background:#2623334f}
+.cover-orb{
+  border-color:#ad9cca35;
+  background:linear-gradient(150deg,#a59aba20,#62527309);
+  box-shadow:0 0 0 28px #b3a4d509;
+}
+.cover-orb:after{background:#b6a8db}
+.strip{
+  background:#0e0f15;
+  border-top:1px solid #282630;
+  border-bottom:1px solid #282630;
+}
+.strip .wrap{color:#a8a6b2}
+.strip strong{color:#ededf3}
+section{background:#0a0b10}
+#products{background:#0a0b10}
+#how{
+  background:
+    radial-gradient(ellipse at 85% 5%,#4b3a6412,transparent 48%),
+    #0d0d15;
+  border-top:1px solid #292631;
+  border-bottom:1px solid #292631;
+}
+#affiliates,#updates,#faq{background:#0a0b10}
+.product{
+  background:#14141d;
+  border:1px solid #302d3c;
+  box-shadow:none;
+}
+.product:hover{
+  background:#191821;
+  border-color:#67597d;
+  transform:translateY(-3px);
+}
+.mini-cover{
+  background:linear-gradient(145deg,#282137,#181720 65%,#15151e);
+  border-color:#494056;
+}
+.mini-cover:after{border-color:#a996d43b;box-shadow:0 0 0 27px #aa98ce09}
+.mini-cover span{color:#c0b4d3}
+.product-content .tag{color:#b1a1d8}
+.product-content p{color:#aaa9b9}
+.price{color:#f5f4fa}
+.status{color:#c9b9e8;background:#292436}
+.muted-status{color:#a6a4b2;background:#20202a}
+.product button{background:#1b1a25;border:1px solid #393443;color:#e6e2ef}
+.product button:hover{background:#272333;border-color:#6a5b7a}
+.step{
+  background:#14141c;
+  border:1px solid #34303c;
+  box-shadow:0 12px 30px #00000012;
+}
+.step-num,.number{color:#af9edb}
+.step h3{color:#f2f0f8}
+.step p{color:#afadbd}
+.affiliate-hero{
+  background:#14141d;
+  border:1px solid #34303f;
+  box-shadow:none;
+}
+.affiliate-hero p{color:#b0afbf}
+.rate{background:#1b1a25;border:1px solid #393342}
+.rate .big{
+  background:none;
+  color:#c0afe8;
+  -webkit-text-fill-color:#c0afe8;
+}
+.affiliate-list article{background:#14141d;border:1px solid #302d3c}
+.affiliate-list p{color:#aaa9b9}
+.newsletter{
+  background:#14141d;
+  border:1px solid #34303f;
+}
+.newsletter p{color:#adaabb}
+.nl-box{background:#1a1924;border:1px solid #393544}
+.nl-box small{color:#a5a3b2}
+details,.faq details{background:#14141d;border:1px solid #302d3c}
+details p{color:#afadbd}
+footer{border-color:#292631;color:#a1a0af}
+.footer-grid p{color:#aaa8b6}
+.legal{color:#9694a6}
+.dialog{background:#181722;border:1px solid #41384b;box-shadow:0 30px 90px #000b}
+.close{background:#23202d;border-color:#423a4d;color:#e9e5f1}
+.dialog p,.dialog li{color:#afadbc}
+.filter{background:#171720;border-color:#393543;color:#bfbdca}
+.filter.active{background:#a99cdb;color:#171320;border-color:#a99cdb}
+.affiliate-amount{
+  border-top:1px solid #464052;
+  color:#d9d0ea;
+}
+::selection{background:#5d4b7a;color:#fff}
+:focus-visible{outline:2px solid #aa9cdb;outline-offset:3px}
+@media (prefers-reduced-motion:reduce){
+  *,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+}
 </style>
 </head>
 <body>
@@ -65,8 +204,8 @@ footer{border-color:#272b37;color:#979dac}.footer-grid p{color:#a2a7b3}.legal{co
 <div class="wrap"><div class="hero"><div><div class="eyebrow"><span class="dot"></span> Curated Make workflows · Coming soon</div><h1>Less busywork.<br><span>More creation.</span></h1><p class="lead">Practical, thoughtfully built Make.com automation workflows for creators and small teams. Clear instructions, honest feature lists, and reusable systems you can make your own.</p><div class="buttons"><a class="button primary" href="#products">Explore workflows <span style="margin-left:14px">↗</span></a><a class="button secondary" href="#affiliates">Become an affiliate</a></div><div class="checks"><span>Built with Make.com</span><span>Human-controlled output</span><span>Clear setup documentation</span></div><p class="tiny">Preview only · Product and payments are not live on this website yet.</p></div><div class="cover" role="img" aria-label="Illustrated purple technology cover for Vave Content Repurposer"><div class="cover-orb"></div><div class="cover-inner"><div class="cover-top"><span>VAVE / WORKFLOWS</span><span class="chip">01 / FEATURED</span></div><div><div class="cover-desc">Make × AI · Content tools</div><div class="cover-title">Content<br>Repurposer.</div><p style="color:#b9bcc9;font-size:12px;margin-top:22px">From one original transcript to a full set of editable content drafts.</p></div><div class="cover-top"><span>WORKFLOW SERIES 001</span><span>↗</span></div></div></div></div></div>
 <div class="strip"><div class="wrap"><span><strong>One source</strong> → multiple content drafts</span><span><strong>Transparent</strong> setup and limitations</span><span><strong>60%</strong> proposed affiliate commission</span><span><strong>Gumroad</strong> checkout planned</span></div></div>
 <section id="products"><div class="wrap"><div class="sec-head"><div><div class="small-label">The collection</div><h2>Workflows worth keeping.</h2><p>One featured launch product. Other concepts stay clearly marked as in development until tested and ready.</p></div><div><div class="tabs" id="filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="featured">Featured</button><button class="filter" data-filter="upcoming">Coming soon</button></div></div></div><div class="product-grid" id="products-grid"></div></div></section>
-<section id="how" style="background:#09172a;border-top:1px solid #1c3852;border-bottom:1px solid #1c3852"><div class="wrap"><div class="small-label">Simple by design</div><h2>Build less from scratch.</h2><p class="section-text" style="margin-bottom:28px">How a finished Vave workflow is intended to work after purchase.</p><div class="step-grid"><div class="step"><div class="step-num">STEP / 01</div><h3>Download</h3><p>Receive a genuine Make blueprint and the companion setup guide through Gumroad after purchase.</p></div><div class="step"><div class="step-num">STEP / 02</div><h3>Connect your tools</h3><p>Import the blueprint into your Make workspace, connect your own supported apps and review any API costs.</p></div><div class="step"><div class="step-num">STEP / 03</div><h3>Review the result</h3><p>Run the workflow on your own content. Edit and approve the output before any manual publishing.</p></div></div></div></section>
-<section id="affiliates"><div class="wrap"><div class="affiliate-hero"><div><div class="small-label">For creators & educators</div><h2>Recommend a useful workflow.<br>Earn from qualified referrals.</h2><p>We are planning a selectively approved affiliate program for creators who make honest, practical content about AI and automation. No upfront fees, no promises of guaranteed earnings, and no requirement to post a positive review.</p><div class="buttons"><a class="button primary" href="mailto:vaveworkflows@gmail.com?subject=Vave%20Workflow%20Store%20-%20Affiliate%20Interest&body=Hello%20Vave%20Workflows%2C%0A%0AI%27d%20like%20to%20apply%20for%20the%20Affiliate%20Program.%0A%0AMy%20channel%20or%20website%3A%0AMy%20audience%3A%0AType%20of%20content%20I%20create%3A%0A%0AThank%20you.">Register your interest ↗</a><a class="button secondary" href="affiliates.html">View program details</a></div><p class="note">Applications currently go to vaveworkflows@gmail.com. Gumroad affiliate enrollment and links will be activated after launch verification.</p></div><div class="rate"><div class="big">60%</div><p>Proposed qualifying-sale commission</p><div style="border-top:1px solid #426380;margin:20px 0 0;padding-top:16px;color:#e0f1ff;font-size:14px">≈ $12 on a $19.99 sale</div><p style="font-size:10px;letter-spacing:0;line-height:1.6;text-transform:none">Before applicable fees, refunds, and program terms.</p></div></div><div class="affiliate-list"><article><div class="number">01 / APPLY</div><h3>Share your work</h3><p>Tell us where you publish and who your audience is. We're looking for relevant, helpful creators rather than follower counts alone.</p></article><article><div class="number">02 / REVIEW</div><h3>Try the real product</h3><p>Approved reviewers get access to accurate documentation and an example demonstration when the workflow is ready.</p></article><article><div class="number">03 / REFER</div><h3>Use tracked links</h3><p>Once enabled, Gumroad provides affiliate tracking links. Reviews should be honest and clearly disclose commission.</p></article></div></div></section>
+<section id="how"><div class="wrap"><div class="small-label">Simple by design</div><h2>Build less from scratch.</h2><p class="section-text" style="margin-bottom:28px">How a finished Vave workflow is intended to work after purchase.</p><div class="step-grid"><div class="step"><div class="step-num">STEP / 01</div><h3>Download</h3><p>Receive a genuine Make blueprint and the companion setup guide through Gumroad after purchase.</p></div><div class="step"><div class="step-num">STEP / 02</div><h3>Connect your tools</h3><p>Import the blueprint into your Make workspace, connect your own supported apps and review any API costs.</p></div><div class="step"><div class="step-num">STEP / 03</div><h3>Review the result</h3><p>Run the workflow on your own content. Edit and approve the output before any manual publishing.</p></div></div></div></section>
+<section id="affiliates"><div class="wrap"><div class="affiliate-hero"><div><div class="small-label">For creators & educators</div><h2>Recommend a useful workflow.<br>Earn from qualified referrals.</h2><p>We are planning a selectively approved affiliate program for creators who make honest, practical content about AI and automation. No upfront fees, no promises of guaranteed earnings, and no requirement to post a positive review.</p><div class="buttons"><a class="button primary" href="mailto:vaveworkflows@gmail.com?subject=Vave%20Workflow%20Store%20-%20Affiliate%20Interest&body=Hello%20Vave%20Workflows%2C%0A%0AI%27d%20like%20to%20apply%20for%20the%20Affiliate%20Program.%0A%0AMy%20channel%20or%20website%3A%0AMy%20audience%3A%0AType%20of%20content%20I%20create%3A%0A%0AThank%20you.">Register your interest ↗</a><a class="button secondary" href="affiliates.html">View program details</a></div><p class="note">Applications currently go to vaveworkflows@gmail.com. Gumroad affiliate enrollment and links will be activated after launch verification.</p></div><div class="rate"><div class="big">60%</div><p>Proposed qualifying-sale commission</p><div class="affiliate-amount" style="margin:20px 0 0;padding-top:16px;font-size:14px">≈ $12 on a $19.99 sale</div><p style="font-size:10px;letter-spacing:0;line-height:1.6;text-transform:none">Before applicable fees, refunds, and program terms.</p></div></div><div class="affiliate-list"><article><div class="number">01 / APPLY</div><h3>Share your work</h3><p>Tell us where you publish and who your audience is. We're looking for relevant, helpful creators rather than follower counts alone.</p></article><article><div class="number">02 / REVIEW</div><h3>Try the real product</h3><p>Approved reviewers get access to accurate documentation and an example demonstration when the workflow is ready.</p></article><article><div class="number">03 / REFER</div><h3>Use tracked links</h3><p>Once enabled, Gumroad provides affiliate tracking links. Reviews should be honest and clearly disclose commission.</p></article></div></div></section>
 <section id="updates" style="padding-top:28px"><div class="wrap"><div class="newsletter"><div><div class="small-label">The Vave Dispatch</div><h2>Product updates without the noise.</h2><p>Launch announcements, helpful workflow tips and occasional release notes. A Gumroad-managed subscription and automated welcome funnel are planned; signups are not yet active in this preview.</p></div><div class="nl-box"><strong>Get notified at launch</strong><p>We'll connect this box to Gumroad's subscriber or product-waitlist form when the seller link is verified.</p><a class="button secondary" href="mailto:vaveworkflows@gmail.com?subject=Vave%20Content%20Repurposer%20Launch%20Question">Ask about the launch ↗</a><small>Not an automated subscription form yet. No email data is collected by this preview.</small></div></div></div></section>
 <section style="padding-top:15px" id="faq"><div class="wrap"><div class="small-label">A few things worth knowing</div><h2>Clear answers.</h2><div class="faq"><details><summary>Does Content Repurposer edit or publish videos?</summary><p>No. It generates written social post drafts, video scripts, a newsletter draft and a suggested review queue from original text. It does not ingest video URLs, edit clips, schedule posts, or publish automatically.</p></details><details><summary>Do I need my own Make account?</summary><p>Yes. The intended buyer package requires a Make workspace and your own supported Gemini connection. API costs are separate. Clean-account import verification is a release requirement.</p></details><details><summary>Is the workflow available to buy now?</summary><p>Not from this preview. The Gumroad product is not yet confirmed published. The buy control will appear only when a real checkout URL and customer download have been verified.</p></details><details><summary>How does affiliate payment work?</summary><p>Approved partners will use their actual Gumroad affiliate links. The proposed commission is 60% of qualifying attributed sales, subject to the platform's payout eligibility, fees, refunds and final program terms.</p></details></div></div></section>
 </main>
