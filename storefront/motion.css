@@ -47,3 +47,46 @@ header{position:sticky}
   .cover-orb,.cover:after,.cover:before{animation:none!important}
   html{scroll-behavior:auto!important}
 }
+
+/* Vave finish-pass page entrance animations — deliberately quiet.
+   Modern browsers: same-origin navigation gently transitions between storefront pages.
+   Other browsers: CSS entrance animation when the destination loads.
+   Nothing is hidden indefinitely if JavaScript is unavailable. */
+@media(prefers-reduced-motion:no-preference){
+  @view-transition{navigation:auto}
+  ::view-transition-old(root){animation:vavePageLeave .14s ease-in both}
+  ::view-transition-new(root){animation:vavePageArrive .32s cubic-bezier(.22,1,.36,1) both}
+
+  .contact-page header .wrap{animation:vaveSoftRise .48s cubic-bezier(.22,1,.36,1) both}
+  .contact-page main>.kicker{animation:vaveSoftRise .56s cubic-bezier(.22,1,.36,1) .08s both}
+  .contact-page main>h1{animation:vaveSoftRise .65s cubic-bezier(.22,1,.36,1) .15s both}
+  .contact-page main>.lead{animation:vaveSoftRise .65s cubic-bezier(.22,1,.36,1) .23s both}
+  .contact-page main>.grid>.card:first-child{animation:vaveSoftRise .7s cubic-bezier(.22,1,.36,1) .31s both}
+  .contact-page main>.grid>.card:nth-child(2){animation:vaveSoftRise .7s cubic-bezier(.22,1,.36,1) .39s both}
+  .contact-page main>.topics{animation:vaveSoftRise .68s cubic-bezier(.22,1,.36,1) .47s both}
+  .contact-page .card.highlighted{transition:border-color .25s ease,box-shadow .35s ease}
+  .contact-page .address{transition:color .22s ease}
+  .contact-page .card:hover .address{color:#ddcdfa}
+
+  .storefront-page .hero .eyebrow{animation:vaveSoftRise .5s cubic-bezier(.22,1,.36,1) .06s both}
+  .storefront-page .hero h1{animation:vaveSoftRise .68s cubic-bezier(.22,1,.36,1) .14s both}
+  .storefront-page .hero .lead{animation:vaveSoftRise .65s cubic-bezier(.22,1,.36,1) .22s both}
+  .storefront-page .hero .buttons{animation:vaveSoftRise .66s cubic-bezier(.22,1,.36,1) .29s both}
+
+  .affiliate-page .hero .tag{animation:vaveSoftRise .55s cubic-bezier(.22,1,.36,1) .08s both}
+  .affiliate-page .hero h1{animation:vaveSoftRise .67s cubic-bezier(.22,1,.36,1) .16s both}
+  .affiliate-page .hero p{animation:vaveSoftRise .67s cubic-bezier(.22,1,.36,1) .24s both}
+
+  @keyframes vaveSoftRise{
+    from{opacity:0;transform:translate3d(0,14px,0);filter:blur(1.6px)}
+    to{opacity:1;transform:translate3d(0,0,0);filter:none}
+  }
+  @keyframes vavePageLeave{
+    from{opacity:1}
+    to{opacity:.88}
+  }
+  @keyframes vavePageArrive{
+    from{opacity:.88;transform:translateY(7px)}
+    to{opacity:1;transform:translateY(0)}
+  }
+}
