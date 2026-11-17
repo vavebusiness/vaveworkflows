@@ -2,9 +2,16 @@
 
 This is a **14-page internal operations headquarters (13 original pages + the Partner Launch Pilot)**, built as a self-contained static website. It is not the Gumroad store itself.
 
-## Rule #1 — Authorized project email (mandatory)
+## Rule #1 — Authorized Vave Workflow Store email identities (mandatory)
 
-**Only `vaveworkflows@gmail.com` is authorized for Vave Workflow Store.** This rule applies to all partner outreach, affiliates, customers, sales, support, drafts, replies, follow-ups, and automated email workflows. Never send from or save Workflow Store outreach drafts in accounts used for Vave Automations or any other project. Before any email action, verify the connected sender account matches `vaveworkflows@gmail.com` exactly. If that account is unavailable or cannot be verified, stop the email action and report the blocker; never fall back to another account. Keep all other projects' correspondence and data separate. Previously created drafts in unrelated accounts must not be sent for Vave Workflow Store.
+**Email addresses must stay purpose-specific, and neither may be used for Vave Automations or other projects.**
+
+- **`vaveworkflows@gmail.com` — General/business:** Creator outreach, affiliate applications, partnerships, launch enquiries, general product questions and marketing replies.
+- **`vaveworkflowsupport@gmail.com` — Customer support ONLY:** Purchased-product help, access and download questions, setup instructions, blueprint import and troubleshooting. Do not use it for creator outreach or email campaigns.
+
+Before any email action, verify that the selected connected account matches the **exact email address required for that action**. If the support account is not connected and identity-verified, do not attempt to read from it or send support messages; the public website can display its address and open a user's email client without needing account access. Never substitute an unrelated Gmail account or assume a support message was sent. Gumroad lifecycle/email-funnel sending remains subject to separate Gumroad settings.
+
+This support-only exception was set by the owner on 2026-11-17 and supersedes the former single-address rule for customer support only. Maintain the Vave Workflow Store / Vave Automations separation.
 
 ## Open it
 
