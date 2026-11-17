@@ -10,7 +10,7 @@ Date: 2026-11-17 | Updated: subdued visual refinement | Status: Public storefron
 - Muted text: **#A4A7B6**
 - Suggested font: **Inter**, with clear white/gray hierarchy, consistent near-neutral surfaces, subtle borders and a maximum of one dominant violet CTA per section
 - Brand mark: **V/** in muted violet. Product illustrations can retain a richer purple identity, while the website itself should stay primarily charcoal; avoid full-section pink/purple gradients, competing highlights and isolated mismatched section background colors.
-- Contact for this project exclusively **vaveworkflows@gmail.com**.
+- General enquiries and affiliates: **vaveworkflows@gmail.com**. Customer support only: **vaveworkflowsupport@gmail.com**.
 
 ## Public preview (existing independent website)
 - Storefront: https://vavebusiness.github.io/vaveworkflows/storefront/
@@ -45,8 +45,14 @@ Keep the current GitHub Pages website as the branded storefront, using Gumroad's
 User screenshot exposed a hard-coded blue background on `<section id="how">` (`#09172a`) and old blue borders/affiliate amount colors. The storefront markup now removes those inline colors, uses `#0D0D15` for the How it works section with subtle violet glow and `#292631` borders, and retains `#0A0B10` for the main surfaces. Keep the entire page within this color family. Avoid inline color overrides that bypass theme CSS. Future Gumroad HTML should use this updated design, not the old navy/blue or pink-heavy themes.
 
 ## 2026-11-17 V4 customer-facing refinement
-- Storefront brand style: deeper graphite with richer, localized amethyst highlights, **not** all-over pink. Primary background **#090A10**, panels **#15151D / #1B1A24**, primary CTA gradient **#A788F1 → #8059C9**, supporting warm champagne **#E6C8A5** for restrained small accents.
+- Storefront brand style: deeper graphite with richer, localized amethyst highlights, **not** all-over pink. Primary background **#090A10**, panels **#15151D / #1B1A24**, primary CTA gradient **#A788F1 → #8059C9**, subtle violet/lilac highlights instead of yellow or champagne.
 - Keep the hard-coded blue How-it-works section permanently removed. Use graphite and a very subtle violet glow, with consistent neutral card surfaces.
 - The Contact navigation must go to **storefront/contact.html**, not a silent mailto action. The contact page visibly shows **vaveworkflows@gmail.com**, has an email-copy button and offers Gmail compose plus default email-app links.
 - Other contact paths should route through the same page: `?topic=affiliate`, `?topic=product`, and `?topic=launch`. No fake contact form submission.
 - Status: updated on GitHub, product purchase and Gumroad affiliate functionality still in prelaunch.
+
+## 2026-11-17 animation and support update
+- Removed **all warm yellow/champagne UI accents**; the brand is now charcoal, amethyst and muted lilac only.
+- Added `storefront/motion.css` and `storefront/motion.js`, adapting patterns studied in the owner's Vave Automations HQ (`assets/motion.js`, `assets/premium.css`, and `assets/work-with-us.css`), without copying that project's branding or business data. Animations: scroll reveals, staggered card entrances, progress line, button ripples, gentle featured-cover movement, hover lifts and modal entrance. Respects `prefers-reduced-motion`; site remains readable without JavaScript.
+- **Support:** `vaveworkflowsupport@gmail.com` — purchase, download, blueprint import, installation and troubleshooting. **Business:** `vaveworkflows@gmail.com` — creator partnerships, affiliate applications, launch and general questions. Contact page offers both with Gmail compose, copy and default email app controls. Do not claim the support inbox is connected until provider identity is verified.
+- The `Contact` and `Support` links on the customer-facing storefront are separate from any Gumroad native account setting. Update Gumroad's support/reply-to settings when seller access is authenticated.
