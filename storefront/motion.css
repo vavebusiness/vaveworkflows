@@ -1,0 +1,49 @@
+/* Vave Workflow Store — original adaptation of Vave Automations HQ motion patterns.
+   Progressive enhancement only: content is visible without JS. No external libraries. */
+:root{--motion-ease:cubic-bezier(.22,1,.36,1)}
+@media(prefers-reduced-motion:no-preference){
+  .motion-ready .motion-reveal{
+    opacity:0;
+    transform:translate3d(0,22px,0) scale(.989);
+    filter:blur(2px);
+    transition:opacity .75s var(--motion-ease),transform .8s var(--motion-ease),filter .75s var(--motion-ease);
+    transition-delay:var(--motion-delay,0ms);
+  }
+  .motion-ready .motion-reveal.is-visible{
+    opacity:1;
+    transform:translateZ(0) scale(1);
+    filter:none;
+  }
+  .motion-ready .product.motion-reveal.is-visible:hover{transform:translateY(-5px)}
+  .motion-ready .step.motion-reveal.is-visible:hover{transform:translateY(-3px)}
+  .cover-orb{animation:vaveFloat 13s ease-in-out infinite alternate}
+  .cover:after{animation:vaveAura 9s ease-in-out infinite alternate}
+  .cover:before{animation:vaveRing 14s ease-in-out infinite alternate}
+  .product .mini-cover{transition:filter .5s var(--motion-ease),background .45s ease}
+  .product:hover .mini-cover{filter:brightness(1.16)}
+  .product .mini-cover:after{transition:transform .7s var(--motion-ease),opacity .6s ease}
+  .product:hover .mini-cover:after{transform:rotate(43deg) scale(1.045)}
+  .step,.affiliate-list article,details{transition:transform .3s var(--motion-ease),border-color .3s,box-shadow .4s}
+  .step:hover,.affiliate-list article:hover{transform:translateY(-3px);border-color:#655080;box-shadow:0 16px 30px #01010640}
+  .overlay.open .dialog{animation:vaveDialog .36s var(--motion-ease) both}
+  .overlay.open{animation:vaveFade .26s ease both}
+  .logo .mark{transition:transform .45s var(--motion-ease),box-shadow .45s ease}
+  .logo:hover .mark{transform:rotate(-6deg) scale(1.045);box-shadow:0 12px 32px #7753b152}
+  .button,.head-link,.product button,.back,.primary,.secondary{transition:transform .28s var(--motion-ease),background .3s,border-color .3s,box-shadow .3s}
+  .motion-ripple{position:absolute;pointer-events:none;z-index:2;width:12px;height:12px;margin:-6px;left:0;top:0;border-radius:50%;background:rgba(241,228,255,.24);transform:scale(0);animation:vaveRipple .55s var(--motion-ease) forwards}
+  @keyframes vaveFloat{from{transform:rotate(-28deg) translateY(0)}to{transform:rotate(-23deg) translate(-8px,7px)}}
+  @keyframes vaveAura{from{opacity:.58}to{opacity:1}}
+  @keyframes vaveRing{from{opacity:.65}to{opacity:.95}}
+  @keyframes vaveDialog{from{opacity:0;transform:translateY(14px) scale(.984)}to{opacity:1;transform:translateY(0) scale(1)}}
+  @keyframes vaveFade{from{opacity:0}to{opacity:1}}
+  @keyframes vaveRipple{0%{opacity:.8;transform:scale(0)}100%{opacity:0;transform:scale(24)}}
+}
+header{position:sticky}
+.vave-scroll-progress{position:absolute;bottom:0;left:0;right:0;height:2px;pointer-events:none;transform-origin:left center;transform:scaleX(0);background:linear-gradient(90deg,#62429e,#bd9bff,#8464ca);z-index:20}
+.button,.primary,.secondary,.head-link,.back,.product button{position:relative;overflow:hidden}
+@media(prefers-reduced-motion:reduce){
+  .motion-reveal,.motion-ready .motion-reveal,.motion-ready .motion-reveal.is-visible{opacity:1!important;transform:none!important;filter:none!important;transition:none!important}
+  .motion-ripple{display:none!important}
+  .cover-orb,.cover:after,.cover:before{animation:none!important}
+  html{scroll-behavior:auto!important}
+}
