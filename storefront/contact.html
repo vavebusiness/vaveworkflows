@@ -7,7 +7,8 @@
 <meta name="description" content="Contact Vave Workflow Store about products, support, affiliate partnerships and collaborations.">
 <title>Contact · Vave Workflow Store</title>
 <style>
-:root{--bg:#090a10;--panel:#15151f;--line:#34303f;--text:#f6f4fb;--muted:#aaa9ba;--violet:#a589f2;--cream:#dfc9ab}
+/* Contact destinations: general enquiries and a separate customer support address. */
+:root{--bg:#090a10;--panel:#15151f;--line:#34303f;--text:#f6f4fb;--muted:#aaa9ba;--violet:#a589f2;--violet-quiet:#c0b4e9}
 *{box-sizing:border-box}
 html{color-scheme:dark}
 body{margin:0;background:radial-gradient(ellipse 45% 44% at 90% -4%,#62408c28,transparent 78%),var(--bg);color:var(--text);font:15px/1.65 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
@@ -22,10 +23,10 @@ header .wrap{min-height:77px;display:flex;align-items:center;justify-content:spa
 .back{color:#b8b5c6;font-size:13px;border:1px solid #37313f;border-radius:10px;padding:9px 15px}
 .back:hover{color:#fff;border-color:#8b73ad}
 main{padding:86px 0 110px}
-.kicker{color:var(--cream);text-transform:uppercase;font-size:11px;letter-spacing:.21em;font-weight:800}
+.kicker{color:var(--violet-quiet);text-transform:uppercase;font-size:11px;letter-spacing:.21em;font-weight:800}
 h1{font-size:clamp(44px,7vw,79px);line-height:1.07;letter-spacing:-.063em;margin:19px 0}
 .lead{font-size:17px;color:#b7b4c4;max-width:660px;line-height:1.75;margin:0 0 39px}
-.grid{display:grid;grid-template-columns:1.35fr .85fr;gap:18px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .card{border:1px solid #37313f;border-radius:23px;padding:34px;background:linear-gradient(150deg,#191720,#13141d);box-shadow:0 26px 55px #03030755}
 .email-label{color:#aa9ebd;font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase}
 .address{font-size:clamp(21px,2.9vw,30px);letter-spacing:-.04em;margin:18px 0 10px;word-break:break-word}
@@ -50,7 +51,16 @@ footer a{color:#cbb8f6}
 @media(max-width:760px){main{padding:65px 0 80px}.grid{grid-template-columns:1fr}.card{padding:26px}.footer .wrap{flex-direction:column}header .wrap{min-height:69px}.back{padding:8px 11px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important}}
 :focus-visible{outline:2px solid #c3a8ff;outline-offset:3px}
+
+.support-card{background:linear-gradient(150deg,#211a2c,#15141f);border-color:#54456c}
+.card.highlighted{border-color:#9c80cf;box-shadow:0 0 0 1px #9d81d026,0 26px 55px #03030755}
+.topics{margin:25px 0 0;padding:20px 25px;border:1px solid #34303f;border-radius:15px;background:#111118}
+.topics p{font-size:13px;color:#a8a5b6;margin:12px 0 0}
+.topics strong{color:#e1d6f4}
+.grid .card{min-width:0}
+@media(max-width:760px){.address{font-size:clamp(19px,5.2vw,26px)}}
 </style>
+<link rel="stylesheet" href="motion.css">
 </head>
 <body>
 <header><div class="wrap"><a class="logo" href="./"><span class="mark">V/</span><span>VAVE <b>WORKFLOWS</b></span></a><a class="back" href="./">← Back to store</a></div></header>
@@ -59,50 +69,82 @@ footer a{color:#cbb8f6}
 <h1>Let's talk workflows.</h1>
 <p class="lead">Need help with a product, have a collaboration idea, or want to join the affiliate program? Reach the Vave Workflow Store team directly.</p>
 <div class="grid">
-<section class="card" aria-labelledby="email-heading">
-<div class="email-label" id="email-heading">Official project email</div>
-<div class="address" id="address">vaveworkflows@gmail.com</div>
-<p class="note">We use this address for product questions, affiliate enquiries, launch updates and customer support. This website does not send messages itself.</p>
+<section class="card" id="general-card" aria-labelledby="general-heading">
+<div class="email-label" id="general-heading">General enquiries &amp; affiliates</div>
+<div class="address" id="general-address">vaveworkflows@gmail.com</div>
+<p class="note">For creator partnerships, affiliate applications, launch updates, and questions about our products. No messages are sent through this website itself.</p>
 <div class="buttons">
 <a class="button primary" id="gmailLink" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vaveworkflows%40gmail.com" target="_blank" rel="noopener noreferrer">Write in Gmail ↗</a>
-<button class="button secondary" type="button" id="copyAddress">Copy email address</button>
+<button class="button secondary" type="button" data-copy-address="vaveworkflows@gmail.com" data-status="general-status">Copy email</button>
 <a class="button tertiary" id="mailLink" href="mailto:vaveworkflows@gmail.com?subject=Vave%20Workflow%20Store%20Enquiry">Other email app ↗</a>
 </div>
-<p class="status" id="copyStatus" aria-live="polite"></p>
+<p class="status" id="general-status" aria-live="polite"></p>
 </section>
-<aside class="card">
-<h2 id="topicTitle">What can we help with?</h2>
-<ul class="list" id="topics">
-<li><strong>Products:</strong> Questions about workflow requirements and features</li>
-<li><strong>Support:</strong> Installation and setup after purchase</li>
-<li><strong>Affiliates:</strong> Creator applications and tracked referral opportunities</li>
-<li><strong>Partnerships:</strong> Educational reviews and collaborations</li>
-</ul>
-</aside>
+<section class="card support-card" id="support-card" aria-labelledby="support-heading">
+<div class="email-label" id="support-heading">Product &amp; customer support</div>
+<div class="address">vaveworkflowsupport@gmail.com</div>
+<p class="note">For purchase and download questions, Make blueprint imports, setup instructions, and troubleshooting. Please include your product name and the issue you're seeing.</p>
+<div class="buttons">
+<a class="button primary" id="supportGmailLink" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vaveworkflowsupport%40gmail.com" target="_blank" rel="noopener noreferrer">Email support ↗</a>
+<button class="button secondary" type="button" data-copy-address="vaveworkflowsupport@gmail.com" data-status="support-status">Copy support email</button>
+<a class="button tertiary" id="supportMailLink" href="mailto:vaveworkflowsupport@gmail.com?subject=Vave%20Workflow%20Store%20Support">Other email app ↗</a>
+</div>
+<p class="status" id="support-status" aria-live="polite"></p>
+</section>
+</div>
+<div class="topics">
+<div class="email-label">Choose the right contact</div>
+<p><strong>General:</strong> Affiliates, partnerships and pre-purchase questions. <strong>Support:</strong> Orders, downloads, importing and setup. We'll direct you to the appropriate email.</p>
 </div>
 </main>
 <footer class="footer"><div class="wrap"><span>VAVE WORKFLOW STORE · Customer-facing preview · No live payment or form submission here.</span><a href="./">Back to storefront</a></div></footer>
 <script>
 (function(){
 'use strict';
-const email='vaveworkflows@gmail.com';
+const general='vaveworkflows@gmail.com';
+const support='vaveworkflowsupport@gmail.com';
 const topic=(new URLSearchParams(location.search)).get('topic')||'general';
-const subjects={general:'Vave Workflow Store enquiry',affiliate:'Vave Workflow Store affiliate application',product:'Vave Workflow Store product question',launch:'Vave Workflow Store launch enquiry',support:'Vave Workflow Store support request'};
-const selected=subjects[topic]||subjects.general;
-const body=topic==='affiliate'?'Hello Vave Workflows,\n\nI am interested in your affiliate program.\n\nMy channel or website:\nAudience and country:\nContent topics:\nWhy the product fits:\n\nThank you.':'';
-document.getElementById('gmailLink').href='https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(email)+'&su='+encodeURIComponent(selected)+(body?'&body='+encodeURIComponent(body):'');
-document.getElementById('mailLink').href='mailto:'+email+'?subject='+encodeURIComponent(selected)+(body?'&body='+encodeURIComponent(body):'');
-if(topic==='affiliate')document.getElementById('topicTitle').textContent='Applying as an affiliate?';
-if(topic==='product')document.getElementById('topicTitle').textContent='Product questions';
-if(topic==='launch')document.getElementById('topicTitle').textContent='Launch enquiries';
-if(topic==='support')document.getElementById('topicTitle').textContent='Product support';
-document.getElementById('copyAddress').addEventListener('click',async function(){
-const status=document.getElementById('copyStatus');
-let ok=false;
-try{if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(email);ok=true;}}catch(e){}
-if(!ok){const t=document.createElement('textarea');t.value=email;t.setAttribute('readonly','');t.style.cssText='position:fixed;top:-10000px;left:-10000px';document.body.appendChild(t);t.select();try{ok=document.execCommand('copy');}catch(e){}t.remove();}
-status.textContent=ok?'Email address copied.':'Unable to copy automatically. You can select the address above.';
+const subjects={
+ general:'Vave Workflow Store enquiry',
+ affiliate:'Vave Workflow Store affiliate application',
+ product:'Vave Workflow Store product question',
+ launch:'Vave Workflow Store launch enquiry',
+ support:'Vave Workflow Store support request'
+};
+const generalSubject=subjects[topic]||subjects.general;
+const generalBody=topic==='affiliate'?
+'Hello Vave Workflows,\n\nI would like to apply for the affiliate program.\n\nMy channel or website:\nMy audience and country:\nContent I create:\nWhy the products fit:\n\nThank you.':'';
+const supportSubject=subjects.support;
+const supportBody='Hello Vave Workflow Support,\n\nProduct name:\nOrder reference (if applicable):\nWhat I need help with:\n\nThank you.';
+function gmailUrl(email,subject,body){
+ return 'https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(email)+'&su='+encodeURIComponent(subject)+(body?'&body='+encodeURIComponent(body):'');
+}
+function mailtoUrl(email,subject,body){
+ return 'mailto:'+email+'?subject='+encodeURIComponent(subject)+(body?'&body='+encodeURIComponent(body):'');
+}
+document.getElementById('gmailLink').href=gmailUrl(general,generalSubject,generalBody);
+document.getElementById('mailLink').href=mailtoUrl(general,generalSubject,generalBody);
+document.getElementById('supportGmailLink').href=gmailUrl(support,supportSubject,supportBody);
+document.getElementById('supportMailLink').href=mailtoUrl(support,supportSubject,supportBody);
+if(topic==='support')document.getElementById('support-card').classList.add('highlighted');
+else if(topic==='affiliate'||topic==='product'||topic==='launch')document.getElementById('general-card').classList.add('highlighted');
+document.querySelectorAll('[data-copy-address]').forEach(button=>{
+ button.addEventListener('click',async()=>{
+  const email=button.getAttribute('data-copy-address');
+  const status=document.getElementById(button.getAttribute('data-status'));
+  let done=false;
+  try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(email);done=true;}}catch(err){}
+  if(!done){
+   const field=document.createElement('textarea');
+   field.value=email;field.setAttribute('readonly','');field.style.cssText='position:fixed;top:-9999px;left:-9999px';
+   document.body.appendChild(field);field.select();
+   try{done=document.execCommand('copy');}catch(err){}
+   field.remove();
+  }
+  status.textContent=done?'Email address copied.':'Please select and copy the email address displayed above.';
+ });
 });
 })();
 </script>
+<script src="motion.js" defer></script>
 </body></html>
