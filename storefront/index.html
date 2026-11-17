@@ -27,7 +27,7 @@ footer{border-top:1px solid #2c2c38;padding:38px 0 48px;color:#9b9ba9}.footer-gr
 :root{
  --bg:#090a10; --panel:#15151d; --panel2:#1b1a24; --stroke:#342f40;
  --text:#f6f4fa; --muted:#aaa8b8; --blue:#b69ae9; --aqua:#c1a5ef;
- --amethyst:#a07ceb; --lilac:#d2c2fa; --champagne:#e6c8a5;
+ --amethyst:#a07ceb; --lilac:#d2c2fa; --accent-soft:#c6afea;
  --white:#fff; --shadow:0 29px 90px #03020999;
 }
 html{color-scheme:dark;scroll-behavior:smooth}
@@ -61,11 +61,11 @@ nav a:hover,nav a.active{color:#e0d4ff}
  background:radial-gradient(ellipse,#8252c21a,transparent 70%);
  filter:blur(10px);
 }
-.eyebrow,.small-label{color:#d3b88d}
+.eyebrow,.small-label{color:#bda7ea}
 .dot{background:#b69ae9;box-shadow:0 0 15px #b69ae977}
 .hero h1{letter-spacing:-.06em}
 .hero h1 span{
- background:linear-gradient(105deg,#d0c0ff 15%,#b297f8 58%,#e2c2b1 108%);
+ background:linear-gradient(105deg,#d0c0ff 15%,#b297f8 58%,#c2a7f0 108%);
  color:transparent;-webkit-text-fill-color:transparent;
  background-clip:text;-webkit-background-clip:text;
 }
@@ -99,7 +99,7 @@ nav a:hover,nav a.active{color:#e0d4ff}
  background:linear-gradient(150deg,#b59be14b,#6b4e9220);
  box-shadow:30px 20px 68px #9d69d13b,-20px -30px 80px #7957ad16;
 }
-.cover-orb:after{background:#ecd2a6}
+.cover-orb:after{background:#bda7ed}
 .strip{background:#0f0f16;border-top:1px solid #342f3e;border-bottom:1px solid #342f3e}
 .strip .wrap{color:#b0adba}
 .strip strong{color:#f4effb}
@@ -119,7 +119,7 @@ section,#products,#affiliates,#updates,#faq{background:#090a10}
  border-bottom:1px solid #50445d;
 }
 .product:nth-child(3n+2) .mini-cover{
- background:radial-gradient(circle at 94% 12%,#a17a7033,transparent 50%),linear-gradient(145deg,#30263b,#17151e 75%);
+ background:radial-gradient(circle at 94% 12%,#855eb133,transparent 50%),linear-gradient(145deg,#30263b,#17151e 75%);
 }
 .product:nth-child(3n+3) .mini-cover{
  background:radial-gradient(circle at 94% 12%,#8766b83a,transparent 50%),linear-gradient(145deg,#252239,#15151e 75%);
@@ -147,7 +147,7 @@ section,#products,#affiliates,#updates,#faq{background:#090a10}
 .affiliate-hero p{color:#b2aebd}
 .rate{background:#201b2a;border:1px solid #544263}
 .rate .big{
- background:none;color:#e4c9aa;-webkit-text-fill-color:#e4c9aa;
+ background:none;color:#d1bafa;-webkit-text-fill-color:#d1bafa;
  text-shadow:0 0 29px #a7804e1c;
 }
 .affiliate-amount{border-top:1px solid #66516a;color:#dfcddf}
@@ -179,6 +179,7 @@ footer{border-color:#302b39;color:#a19baa}
 }
 
 </style>
+<link rel="stylesheet" href="motion.css">
 </head>
 <body>
 <header><div class="wrap"><a class="logo" href="#home" aria-label="Vave Workflows"><span class="mark">V/</span><span>VAVE <em>WORKFLOWS</em></span></a><nav><a href="#products">Products</a><a href="#how">How it works</a><a href="#affiliates">Affiliate Program</a><a href="#updates">Updates</a></nav><a class="head-link" href="contact.html">Contact <span aria-hidden="true">↗</span></a></div></header>
@@ -191,7 +192,7 @@ footer{border-color:#302b39;color:#a19baa}
 <section id="updates" style="padding-top:28px"><div class="wrap"><div class="newsletter"><div><div class="small-label">The Vave Dispatch</div><h2>Product updates without the noise.</h2><p>Launch announcements, helpful workflow tips and occasional release notes. A Gumroad-managed subscription and automated welcome funnel are planned; signups are not yet active in this preview.</p></div><div class="nl-box"><strong>Get notified at launch</strong><p>We'll connect this box to Gumroad's subscriber or product-waitlist form when the seller link is verified.</p><a class="button secondary" href="contact.html?topic=launch">Ask about the launch ↗</a><small>Not an automated subscription form yet. No email data is collected by this preview.</small></div></div></div></section>
 <section style="padding-top:15px" id="faq"><div class="wrap"><div class="small-label">A few things worth knowing</div><h2>Clear answers.</h2><div class="faq"><details><summary>Does Content Repurposer edit or publish videos?</summary><p>No. It generates written social post drafts, video scripts, a newsletter draft and a suggested review queue from original text. It does not ingest video URLs, edit clips, schedule posts, or publish automatically.</p></details><details><summary>Do I need my own Make account?</summary><p>Yes. The intended buyer package requires a Make workspace and your own supported Gemini connection. API costs are separate. Clean-account import verification is a release requirement.</p></details><details><summary>Is the workflow available to buy now?</summary><p>Not from this preview. The Gumroad product is not yet confirmed published. The buy control will appear only when a real checkout URL and customer download have been verified.</p></details><details><summary>How does affiliate payment work?</summary><p>Approved partners will use their actual Gumroad affiliate links. The proposed commission is 60% of qualifying attributed sales, subject to the platform's payout eligibility, fees, refunds and final program terms.</p></details></div></div></section>
 </main>
-<footer><div class="wrap"><div class="footer-grid"><div><div class="logo"><span class="mark">V/</span><span>VAVE <em>WORKFLOWS</em></span></div><p>Practical Make.com blueprints, thoughtfully documented.</p></div><div class="links"><a href="#products">Products</a><a href="affiliates.html">Affiliate Program</a><a href="contact.html">Contact</a></div></div><div class="legal">© 2026 Vave Workflow Store · Independent from Vave Automations · PRELAUNCH PREVIEW — No purchases accepted here.</div></div></footer>
+<footer><div class="wrap"><div class="footer-grid"><div><div class="logo"><span class="mark">V/</span><span>VAVE <em>WORKFLOWS</em></span></div><p>Practical Make.com blueprints, thoughtfully documented.</p></div><div class="links"><a href="#products">Products</a><a href="affiliates.html">Affiliate Program</a><a href="contact.html">Contact</a><a href="contact.html?topic=support">Support</a></div></div><div class="legal">© 2026 Vave Workflow Store · Independent from Vave Automations · PRELAUNCH PREVIEW — No purchases accepted here.</div></div></footer>
 <div class="overlay" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="dialog"><button class="close" id="closeModal" aria-label="Close">✕</button><div class="small-label" id="modalCat">Make workflow</div><h2 id="modalTitle"></h2><p id="modalDescription"></p><h3>What it creates</h3><p id="modalOutputs"></p><h3>Requirements</h3><p id="modalRequirements"></p><h3>Important limits</h3><p id="modalLimits"></p><p id="modalStatus" class="note"></p><a class="button secondary" href="contact.html?topic=product">Ask about this workflow ↗</a></div></div>
 <script>
 const products=[
@@ -217,4 +218,5 @@ function render(filter='all'){grid.innerHTML=products.filter(p=>filter==='all'||
 window.showProduct=function(i){const p=products[i];document.querySelector('#modalCat').textContent=p.category;document.querySelector('#modalTitle').textContent=p.name;document.querySelector('#modalDescription').textContent=p.desc;document.querySelector('#modalOutputs').textContent=p.outputs;document.querySelector('#modalRequirements').textContent=p.requirements||'Make.com account and any connected services needed after a verified product release.';document.querySelector('#modalLimits').textContent=p.limits;document.querySelector('#modalStatus').textContent=p.featured?'Planned one-time price: $19.99. Gumroad checkout will be connected after product publication.':'In development. Not available for purchase.';document.querySelector('#modal').classList.add('open');document.body.style.overflow='hidden';};
 function closeModal(){document.querySelector('#modal').classList.remove('open');document.body.style.overflow='';}document.querySelector('#closeModal').onclick=closeModal;document.querySelector('#modal').onclick=e=>{if(e.target.id==='modal')closeModal()};document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));btn.classList.add('active');render(btn.dataset.filter)}));render();
 </script>
+<script src="motion.js" defer></script>
 </body></html>
