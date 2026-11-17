@@ -1,15 +1,15 @@
-# Vave Workflow Store — Violet brand and native Gumroad Pages migration
-Date: 2026-11-17 | Status: Public storefront preview refreshed; Gumroad native page not yet deployed.
+# Vave Workflow Store — Charcoal and Violet brand and native Gumroad Pages migration
+Date: 2026-11-17 | Updated: subdued visual refinement | Status: Public storefront preview refreshed; Gumroad native page not yet deployed.
 
 ## Brand identity
-- Main background: **#10091D** — deep violet-black
-- Surface/panels: **#1B102F / #26163D** — layered dark purple
-- Primary action: **#B88AFF** transitioning to **#E4A2F3** — bright violet/lilac pink
-- Secondary purple: **#AD7AF9**
-- Main text: **#F8F4FF**
-- Muted text: **#B7A8CE**
-- Suggested font: **Inter** (available in Gumroad theme), with generous spacing, rounded cards, restrained glow effects and high contrast
-- Brand mark: **V/** in violet gradient. Product illustrations and social banners should align with the existing purple Content Repurposer Gumroad assets; don't reuse the older blue HQ design as the public store identity.
+- Main background: **#0D0F15** — neutral charcoal-black
+- Surface/panels: **#151821 / #1A1E29** — consistent dark-slate layers
+- Primary action: **#BBAAEE** — restrained soft-violet, no pink gradient
+- Secondary accent: **#C3B5EF** — reserved for key headings, links and small details
+- Main text: **#F4F4F8**
+- Muted text: **#A4A7B6**
+- Suggested font: **Inter**, with clear white/gray hierarchy, consistent near-neutral surfaces, subtle borders and a maximum of one dominant violet CTA per section
+- Brand mark: **V/** in muted violet. Product illustrations can retain a richer purple identity, while the website itself should stay primarily charcoal; avoid full-section pink/purple gradients, competing highlights and isolated mismatched section background colors.
 - Contact for this project exclusively **vaveworkflows@gmail.com**.
 
 ## Public preview (existing independent website)
@@ -24,7 +24,7 @@ Gumroad's current "Build a website on Gumroad" documentation describes custom HT
 ### Migration sequence
 1. In the authenticated seller account, open **Pages → Home** and obtain the provided agent/developer prompt; use it for the custom HTML profile workflow, including a Gumroad preview before pushing.
 2. Port the Vave violet visual design, accessible responsive layout and content. Use Gumroad's `gumroad-data` and `gumroad-prices` product data on the custom **profile** page rather than hardcoded checkout URLs or prices when possible; those datasets do not appear in standalone pages.
-3. In **Settings → Profile → Design**, set background **#10091D**, highlight **#B88AFF**, font **Inter**. These settings apply to Gumroad product pages, checkout, posts and eligible Gumroad emails; a custom profile HTML page retains its own CSS.
+3. In **Settings → Profile → Design**, set background **#0D0F15**, highlight **#BBAAEE**, font **Inter**. These settings apply to Gumroad product pages, checkout, posts and eligible Gumroad emails; a custom profile HTML page retains its own CSS.
 4. Publish the separate Affiliate Program page via Gumroad Pages once affiliate enrollment is actually enabled. Until then use a truthful `mailto:vaveworkflows@gmail.com` application link.
 5. Verify the real **Vave Content Repurposer** price (**$19.99**, confirmed during seller handoff, not earlier HQ's old $49 concept price), published product URL, actual customer ZIP and checkout requirements before connecting a buy button.
 6. Enable native Gumroad audience/subscription controls and Gumroad's available email workflows once account and workflow eligibility is verified. Never import creator outreach addresses as subscribers without consent.
