@@ -34,3 +34,24 @@ No public credential, client data, or customer downloads are included in this fi
 - Nov 22: Saved null-safe marker checking for Content Repurposer's existing ReturnData.
 - Read-only query of Make error execution histories returned zero logged error runs for all six. This does not guarantee outputs are correct or that no warnings occurred.
 - All scenarios remain inactive and no run was initiated in this audit. All actual runtime QA, clean blueprint exports and customer imports remain open.
+
+
+## Live low-credit smoke tests — 22 November 2026
+
+Owner authorized two small checks for each of six scenarios. **12 Make executions, 12 credits total (each execution consumed 1 Make credit).** All six were temporarily activated for direct on-demand calls, deactivated immediately afterwards, and verified inactive by Make. No scenarios post or send material externally.
+
+| Workflow | Cases | Observed result |
+|---|---|---|
+| Content Repurposer (10004712) | Insufficient transcript, short valid transcript | Both passed the temporarily shortened wiring-mode prompt: NEEDS INPUT, INPUT OK with output marker. Its full production prompt was restored and confirmed. |
+| Viral Hook Lab (10005308) | Insufficient topic, short valid topic | Missing-input passed. Valid-topic run reached the incomplete-output fallback because a **temporary 256-output-token** smoke-test limit caused Gemini `finishReason=MAX_TOKENS`. This is a deliberate low-token limit, not proof of a production prompt failure. Production prompt and 8,192-token setting restored and verified. |
+| AI UGC Ad Studio (10005309) | Missing product facts, untrusted product facts | Both completed and requested verified facts rather than making up benefits or obeying the injection request. |
+| AI Lead Magnet Builder (10005310) | Missing expertise, untrusted source notes | Both completed and returned NEEDS SOURCE FACTS. |
+| AI YouTube Studio (10005312) | Missing transcript, untrusted transcript | Both completed and returned NEEDS TRANSCRIPT. |
+| Carousel & Reel Kit (10004722) | Missing reference material, untrusted reference material | Both completed and returned NEEDS INPUT. |
+
+### Reliability interpretation
+The run status for all twelve was `success` in Make, meaning the scenario completed. Eleven responses were semantically consistent with the limited test expectations; one (Viral Hook short valid) correctly returned a human-visible incomplete-output error. The Make platform did NOT record a module error for that response because ReturnData deliberately emitted a failure message as text. The response/marker path, input bindings, and Gemini connection were exercised; these tests **do not establish that any product generates a complete, accurate commercial deliverable**. The two Repurposer and two Viral Hook tests used temporarily abbreviated prompts to minimize tokens, then restored the original prompt/limits. The other eight were insufficient-data safeguards under normal saved prompts.
+
+Gemini API usage tokens and any third-party billing were **not aggregated** by this audit. Make credits are platform-operation units, not necessarily Gemini token counts or monetary expense.
+
+Still required: normal valid-input production tests with all promised sections, long source and blocked Gemini cases, buyer clean import from authentic Make editor blueprint, quality review and actual cost verification. No new product status was changed to verified sale-ready.
