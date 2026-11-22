@@ -118,3 +118,7 @@ Open `systems/launch-packs.html` to view the 15 first-batch dossiers, designs, s
 - Private HQ audit: `docs/WORKFLOW_STATIC_AUDIT_2026-11-07.md`.
 - First partner pilot: `docs/CONTENT_REPURPOSER_PARTNER_READINESS_2026-11-07.md`.
 - A separate downloadable ZIP with corrected (but still unverified) blueprint candidates is prepared outside the repository; it is not uploaded to publicly accessible pages.
+
+
+## Content Launch Six — 22 November 2026
+Open `systems/creator-launch-6.html` for the dedicated six-product roadmap and buyer-facing scope statements. Five additional inactive Make scenarios have improved draft generation instructions; separate seller development kits exist outside the public repository. None of the five is marked sale-ready until genuine blueprint export, buyer import, QA, real demo, Gumroad and delivery are verified.
