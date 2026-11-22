@@ -28,3 +28,9 @@ Audit mode: connector inspection only. No Make execution, activation, or custome
 Normal source, missing and minimal source, untrusted embedded instructions, long source, AI blocked/empty answer, model quota failure, partial completion, billing/credits, buyer-account clean blueprint import, output quality, authentic screen-recorded demo, support and refund terms. NO TESTS WERE RUN.
 
 No public credential, client data, or customer downloads are included in this file.
+
+## Final saved-change record
+- Nov 22: Saved both Gemini request and ReturnData completeness controls for Viral Hook Lab, UGC Ad Studio, Lead Magnet Builder, YouTube Studio, and Carousel & Reel Kit.
+- Nov 22: Saved null-safe marker checking for Content Repurposer's existing ReturnData.
+- Read-only query of Make error execution histories returned zero logged error runs for all six. This does not guarantee outputs are correct or that no warnings occurred.
+- All scenarios remain inactive and no run was initiated in this audit. All actual runtime QA, clean blueprint exports and customer imports remain open.
